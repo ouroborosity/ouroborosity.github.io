@@ -96,7 +96,9 @@ function generateLink()
     var strOut = '';
 	var before = "http://i.imgur.com/";
 	var after = ".jpg";
-	for(i=0; i < 5; i++)
+	var max = max(5,7) {
+		return Math.floor(Math.random() * (max - min + 1) ) + min;}
+	for(i=0; i < max; i++)
 		{
 			strOut += str.charAt(Math.floor(Math.random()*str.length));
         }
