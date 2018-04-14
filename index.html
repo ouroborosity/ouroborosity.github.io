@@ -100,7 +100,7 @@ function generateLink()
     var strOut = '';
 	var before = "http://i.imgur.com/";
 	var after = ".jpg";
-	var max = maxmath;
+	var max = Math.random()*20+1;
 	for(i=0; i < max; i++)
 		{
 			strOut += str.charAt(Math.floor(Math.random()*str.length));
